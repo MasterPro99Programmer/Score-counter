@@ -1,0 +1,70 @@
+@font-face{
+    src: url("8DigitPinRegular-d9WRV.ttf");
+    font-family: times;
+}
+body {
+    margin: 100px auto auto;
+    background:linear-gradient(black, darkblue, lightblue);
+    text-align: center;
+}
+.scrore{
+    background-color:darkslateblue;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 2px;
+    color: white;
+}
+#newgame{
+    background-color:darkslateblue;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin: 15px 0px;
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 550px;
+    margin: 10px auto;
+}
+#team1{
+    text-align: center;
+    }
+#team2{
+    text-align: center;
+    }
+#team101{
+    background-color: black;
+    color: red;
+    padding: 25px 35px;
+    font-family: times;
+    border-radius: 10px;
+}
+#team201{
+    background-color: black;
+    color: red;
+    padding: 25px 35px;
+    font-family: times;
+    border-radius: 10px;
+}
+h3{
+    color: white;
+}
+button:hover{
+    background-color: dodgerblue;
+    color: black;
+}
+#team-highlight{
+    margin: 20px auto;
+    color:gold;
+    background-color: blue;
+    width: 150px;
+    border-radius: 5px;
+    padding: 5px;
+}
+h1{
+    color: white;
+    margin: 0px auto 40px auto;
+}
